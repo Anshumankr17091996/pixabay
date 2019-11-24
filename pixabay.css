@@ -1,0 +1,148 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans&display=swap");
+body{
+    margin: 0;
+    padding: 0;
+   
+}
+.logo{
+    width: 10%;
+    float: left;
+    background:url('./sprites.png'); 
+    height: 50px;
+    background-position: 10px 55px;
+    font-family: 'Open Sans',sans-serif;
+}
+
+.leftmenu{
+    margin: 0px 0px 0px 30px;
+    width: 40%;
+    background:transparent;
+    width: 45%;
+    float: left;
+}
+.rightmenu{
+    background:transparent;
+    width: 42%;
+    float: right;
+    text-align: right;
+}
+ul{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.leftmenu ul>li>a,.rightmenu ul>li>a{
+    color: white;
+    text-decoration-line: none;
+    padding: 20px;
+    display: inline-block;
+    text-transform: capitalize;
+}
+.leftmenu ul>li,
+.rightmenu ul>li{
+    display: inline-block;
+
+}
+#headerBlock{
+    /*padding: 13px;*/
+    z-index: 1;
+    position: relative;
+   
+}
+.last a{
+width: 40px;
+    border-radius: 20px;
+border: 1px solid white;
+padding: 4px 20px !important;
+background: 0 0;
+}
+.rightmenu>ul>li:nth-child(2)::after{
+    content: '<';
+    display: inline-block;
+    transform: rotate(-90deg);
+   color: white;
+}
+/*slider section css here*/
+#sliderSection {
+    color: cornsilk;
+    background: url('./10-14-50-567_1920x430.jpg');
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 360px;
+    text-align: center;
+   /* position: absolute;*/
+    top:0;
+    padding-top: 150px;
+    
+}
+#sliderSection>header>h1{
+    font-size: 32px;
+
+}
+#sliderSection>footer>form>input{
+    padding:22px;
+    width:60%;
+    margin-top: 30px;
+    border-radius: 5px;
+    border: 0;
+}
+.searchIcon{
+    position: relative;
+}
+.searchIcon i{
+    position: absolute;
+    color:#1119;
+    left: 16px;
+    top:4px;
+    font-size:20px ;
+z-index: 1;;
+}
+#sliderSection>footer>form>input::placeholder{
+    padding:0px 30px;
+    font-size:16px;
+    position: relative;
+    top:5px;
+}
+.imageText{
+    position: relative;
+
+}
+.imageText{
+    position: absolute;
+    right:335px;
+    top:323px;
+    border:none;
+   
+}
+
+.image1{
+ width:31%;
+ float: left;
+ margin: 8px;
+}
+.image2{
+    width:20%;
+    float: left;
+    margin: 7px;
+   }
+.image3{
+    width:20%;
+    float: left;
+    margin: 7px;
+}
+.image4{
+    width:15%;
+    float: left;
+    margin: 7px;
+   }
+   #imageSection img{
+width: 121%;
+height:300px
+   }
+ #imageSection{
+       width:97%;
+       margin: 0 auto;
+   }
+
+
